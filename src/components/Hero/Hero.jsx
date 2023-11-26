@@ -8,6 +8,7 @@ const Hero = () => {
       <div className="paddings innerWidth flexCenter hero-container">
 
         {/* left side  */}
+        
         <div className="flexColStart hero-left">
           
           <div className="hero-title">
@@ -18,17 +19,20 @@ const Hero = () => {
             </h1>
           </div>
 
+          {/* hero description */}
           <div className="flexColStart hero-des">
             <span className='secondaryText'>Find a variety of properties that suit you very easily</span>
             <span className='secondaryText'>Forget all difficulties in finding a residence for you</span>
           </div>
 
+          {/* search bar */}
           <div className="flexCenter search-bar">
             <HiLocationMarker color="var(--blue)" size={25}/>
             <input type="text" />
             <button className="button">Search</button>
           </div>
 
+          {/* numbers */}
           <div className="flexCenter stats">
 
             <div className="flexColCenter stat">
