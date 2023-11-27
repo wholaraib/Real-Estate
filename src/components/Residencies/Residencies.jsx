@@ -35,7 +35,6 @@ const Residencies = () => {
     </seciton>
   );
 };
-
 export default Residencies
 const SliderButtons = () => {
   const swiper = useSwiper();
